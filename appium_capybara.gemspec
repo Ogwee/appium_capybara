@@ -19,8 +19,8 @@ Gem::Specification.new do |s|
   s.homepage      = 'https://github.com/appium/appium_capybara'
   s.require_paths = ['lib']
 
-  s.add_runtime_dependency 'appium_lib', '~> 12.0'
-  s.add_runtime_dependency 'capybara', '~> 3.36'
+  s.add_runtime_dependency 'appium_lib', '~> 13.0'
+  s.add_runtime_dependency 'capybara', '~> 3.38'
 
   s.add_development_dependency 'appium_thor', '~> 1.1.6'
 
