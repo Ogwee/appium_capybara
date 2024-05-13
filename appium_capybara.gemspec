@@ -7,7 +7,7 @@ class Gem::Specification
 end
 
 Gem::Specification.new do |s|
-  s.required_ruby_version = '>= 2.7'
+  s.required_ruby_version = Gem::Requirement.new('>= 3.0')
 
   s.name          = 'appium_capybara'
   s.version       = Appium::Capybara::VERSION
@@ -22,7 +22,7 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency 'appium_lib', '~> 14.0'
   s.add_runtime_dependency 'capybara', '~> 3.38'
 
-  s.add_development_dependency 'appium_thor', '~> 1.1.6'
+  s.add_development_dependency 'appium_thor', '~> 2.0'
 
   s.files = s.remove_zip_files(`git ls-files`.split("\n"))
 end
